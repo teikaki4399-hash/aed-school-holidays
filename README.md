@@ -12,7 +12,7 @@
 | `analysis/src.py` | 千葉県のAEDデータで、使える日時が予定などで変わる記録（617件）を原因ごとに分類する | 1.1 |
 | `analysis/ambdef.py` | `src.py` が使う「日時が決まらない表現」の判定 | 1.1 |
 | `analysis/aed_times_all.tsv` | 千葉県オープンデータサイトのAEDデータから、日時の欄だけを取り出して集計したもの（1列目が件数） | 1.1 |
-| `results/kyuko_check.xlsx` | `read_kyuko.js` で取り出した休校57件を、筆者が表を目で見て確かめた結果（57件すべて正しい） | 4.3 |
+| `results/kyuko_check.csv` | `read_kyuko.js` で取り出した休校57件を、筆者が表を目で見て確かめた結果（57件すべて正しい） | 4.3 |
 
 ## 動かし方
 
